@@ -1,0 +1,17 @@
+Window=View
+ListView=ListView
+GridView=GridView
+Spinner=ComboBox
+EditText=EditText
+CheckBox=CheckBox
+CompoundButton=View
+Button=View
+TextView=EditText
+View=View
+TabControl=TabControl
+ScrollBar=ScrollBar
+DatePicker=DatePicker
+TimePicker=TimePicker
+ProgressBar=ProgressBar
+RadioButton=View
+Layout=View

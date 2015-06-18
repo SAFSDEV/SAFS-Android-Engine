@@ -1,0 +1,24 @@
+#When we update this file, REMEMBER to update JavaObjectsMap.dat of SAFS Project.
+com.android.internal.policy.impl.PhoneWindow$DecorView=Window
+android.widget.PopupWindow$PopupViewContainer=Window
+android.widget.ListView=ListView
+android.widget.GridView=GridView
+android.widget.Spinner=Spinner
+android.widget.EditText=EditText 
+android.widget.CheckBox=CheckBox
+android.widget.CompoundButton=CompoundButton
+android.widget.Button=Button
+android.widget.TextView=TextView
+android.view.View=View
+android.widget.TabHost=TabControl
+android.widget.ScrollView=ScrollBar
+android.widget.HorizontalScrollView=ScrollBar
+android.widget.DatePicker=DatePicker
+android.widget.TimePicker=TimePicker
+android.widget.ProgressBar=ProgressBar
+android.widget.SeekBar=ProgressBar
+android.widget.RadioButton=RadioButton
+android.widget.LinearLayout=Layout
+android.widget.FrameLayout=Layout
+android.widget.GridLayout=Layout
+android.widget.RelativeLayout=Layout
