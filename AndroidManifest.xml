@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.jayway.android.robotium.remotecontrol.client"
+          package="org.safs.android.engine"
           android:versionCode="1"
           android:versionName="1.0">
     <!-- We add an application tag here just so that we can indicate that
          this package needs to link against the android.test library,
          which is needed when building test cases. -->
     <uses-sdk android:minSdkVersion="10" />
-    <application android:label="Robotium Test Runner" 
+    <application android:label="SAFS Test Runner" 
                  android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
     <!--
     This declares that this application uses the instrumentation test runner targeting
     the package of com.android.example.spinner.  To run the tests use the command:
-    "adb shell am instrument -w com.jayway.android.robotium.remotecontrol.client/com.jayway.android.robotium.remotecontrol.client.RobotiumTestRunner"
+    "adb shell am instrument -w org.safs.android.engine/org.safs.android.engine.DSAFSTestRunner"
     -->
-    <instrumentation android:name="com.jayway.android.robotium.remotecontrol.client.RobotiumTestRunner"
+    <instrumentation android:name="org.safs.android.engine.DSAFSTestRunner"
                      android:targetPackage="com.android.example.spinner"
-                     android:label="General-Purpose Robotium Test Runner"/>
+                     android:label="General-Purpose SAFS Test Runner"/>
 </manifest>
