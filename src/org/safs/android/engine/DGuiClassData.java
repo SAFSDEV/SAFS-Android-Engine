@@ -1,6 +1,20 @@
-/** Copyright (C) (SAS) All rights reserved.
- ** General Public License: http://www.opensource.org/licenses/gpl-license.php
- **/
+/**
+ * Copyright (C) SAS Institute, All rights reserved.
+ * General Public License: https://www.gnu.org/licenses/gpl-3.0.en.html
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
 package org.safs.android.engine;
 
 
@@ -31,7 +45,7 @@ import org.safs.tools.drivers.DriverConstant;
  * Custom class to type mapping is stored in "custom_java_objects_map.dat".<br/>
  * Custom types to library mapping is stored in "custom_object_types_map.dat".<br/>
  * 
- * FEB 07, 2013 (Lei Wang)	Modify to let it be a subclass of org.safs.GuiClassData.<br/>
+ * FEB 07, 2013 (LeiWang)	Modify to let it be a subclass of org.safs.GuiClassData.<br/>
  **/
 public class DGuiClassData extends GuiClassData{
 
@@ -210,7 +224,7 @@ public class DGuiClassData extends GuiClassData{
 	 *          <CODE>null</CODE> if no mapped type is found.  The classtype may be 
 	 *          returned as a comma-separated list of all types supported for the class.
 	 * 
-	 * @author AUG 16, 2013 Carl Nagle Refactored to support recursive and allowGeneric options. 
+	 * @author AUG 16, 2013 CarlNagle Refactored to support recursive and allowGeneric options. 
 	 */
 	public String getMappedClassType(String classname, Object theObject, boolean recursive, boolean allowGeneric)
 	{

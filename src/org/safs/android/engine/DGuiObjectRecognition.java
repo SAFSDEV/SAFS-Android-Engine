@@ -1,7 +1,20 @@
 /**
- ** Copyright (C) SAS Institute, All rights reserved.
- ** General Public License: http://www.opensource.org/licenses/gpl-license.php
- */
+ * Copyright (C) SAS Institute, All rights reserved.
+ * General Public License: https://www.gnu.org/licenses/gpl-3.0.en.html
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
 package org.safs.android.engine;
 
 import java.lang.reflect.Field;
@@ -49,14 +62,14 @@ import com.robotium.solo.RCSolo;
 
 /**
  * Primary means to interrogate GUI Objects on the Android Device or Emulator.<br>
- * (Carl Nagle) May 10, 2012  Fixed getTopLevelWindows to properly extract the topmost focused 
+ * (CarlNagle) May 10, 2012  Fixed getTopLevelWindows to properly extract the topmost focused 
  *                        View even if it is a Dialog or PopupWindow and not a child of 
  *                        the "current" Activity.<br>
- * (Lei Wang) SEP 07, 2012  Add method getPropertyByReflection().
+ * (LeiWang) SEP 07, 2012  Add method getPropertyByReflection().
  * 						  Modify method getObjectProperty(): at the end, call getPropertyByReflection() to
  * 						  get property for some simple properties easily.<br>
- * (Lei Wang) FEB 21, 2013  Add "TYPE=WINDOW" to array {@link #TOPLEVEL_WINDOW_RECS_UC}<br>
- * (Lei Wang) JUN 05, 2013  Return view's id name as the object's name.<br>
+ * (LeiWang) FEB 21, 2013  Add "TYPE=WINDOW" to array {@link #TOPLEVEL_WINDOW_RECS_UC}<br>
+ * (LeiWang) JUN 05, 2013  Return view's id name as the object's name.<br>
  */
 public class DGuiObjectRecognition{
 
