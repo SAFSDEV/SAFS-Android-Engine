@@ -1,7 +1,20 @@
 /**
- ** Copyright (C) SAS Institute, All rights reserved.
- ** General Public License: http://www.opensource.org/licenses/gpl-license.php
- */
+ * Copyright (C) SAS Institute, All rights reserved.
+ * General Public License: https://www.gnu.org/licenses/gpl-3.0.en.html
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
 package org.safs.android.engine;
 
 import org.safs.sockets.RemoteException;
@@ -10,10 +23,10 @@ import org.safs.sockets.RemoteException;
  * 
  * @author Carl Nagle, SAS Institute, Inc
  * <p>
- * FEB 07, 2013 (Lei Wang)	Add a static field DGuiClassData to help get type for an object.<br/>
- * FEB 21, 2013 (Lei Wang)	Adjust to work with Recognition String in "Type=XXX" format.<br/>
- * JUN 05, 2013 (Lei Wang)	Handle qualifier "ID=".<br/>
- * JUN 14, 2013 (Lei Wang)	Handle qualifier "ID=xxx;Index=xxx", "Name=xxx;Index=xxx".<br/>
+ * FEB 07, 2013 (LeiWang)	Add a static field DGuiClassData to help get type for an object.<br/>
+ * FEB 21, 2013 (LeiWang)	Adjust to work with Recognition String in "Type=XXX" format.<br/>
+ * JUN 05, 2013 (LeiWang)	Handle qualifier "ID=".<br/>
+ * JUN 14, 2013 (LeiWang)	Handle qualifier "ID=xxx;Index=xxx", "Name=xxx;Index=xxx".<br/>
  */
 public class DGuiObjectDefinition{
 

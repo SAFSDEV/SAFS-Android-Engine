@@ -1,7 +1,20 @@
-/** 
- ** Copyright (C) SAS Institute, All rights reserved.
- ** General Public License: http://www.opensource.org/licenses/gpl-license.php
- **/
+/**
+ * Copyright (C) SAS Institute, All rights reserved.
+ * General Public License: https://www.gnu.org/licenses/gpl-3.0.en.html
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
 package com.jayway.android.robotium.remotecontrol.client.processor;
 
 import java.util.Enumeration;
@@ -20,7 +33,7 @@ import com.jayway.android.robotium.remotecontrol.client.SoloMessage;
  * 
  * @author Lei Wang, SAS Institute, Inc
  * @since
- * <br>May 17, 2013		(Lei Wang)	Move some static methods to com.jayway.android.robotium.remotecontrol.solo.Message
+ * <br>May 17, 2013		(LeiWang)	Move some static methods to com.jayway.android.robotium.remotecontrol.solo.Message
  */
 public abstract class AbstractProcessor implements ProcessorInterface {
 	public static String TAG = AbstractProcessor.class.getName();
@@ -403,8 +416,8 @@ public abstract class AbstractProcessor implements ProcessorInterface {
 	 * @see #getCachedItem(Hashtable, Object)
 	 * @see #putCachedItem(Hashtable, Object, Object)
 	 * 
-	 * @author Carl Nagle APR 23,2010 handle case of null items in items array.
-	 * @author Lei Wang MAR 01,2012 Return an array of String instead of Object, 
+	 * @author CarlNagle APR 23,2010 handle case of null items in items array.
+	 * @author LeiWang MAR 01,2012 Return an array of String instead of Object, 
 	 *                            as makeUniqueCacheKey() return only String.
 	 */
 	protected String[] convertToKeys(Hashtable cache, Object[] items){

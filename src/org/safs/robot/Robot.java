@@ -1,7 +1,20 @@
-/** 
- * Copyright (C) SAS Institute. All rights reserved.
- * General Public License: http://www.opensource.org/licenses/gpl-license.php
- **/
+/**
+ * Copyright (C) SAS Institute, All rights reserved.
+ * General Public License: https://www.gnu.org/licenses/gpl-3.0.en.html
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
 package org.safs.robot;
 
 import java.io.InputStream;
@@ -29,18 +42,18 @@ import android.view.MotionEvent;
 /**
  * Utility functions for common user interactions on the system.
  * 
- * @author Carl Nagle Sept 09, 2008
+ * @author CarlNagle Sept 09, 2008
  * @see java.awt.Robot
  * @see org.safs.tools.input.CreateUnicodeMap
  * @see org.safs.tools.input.InputKeysParser
  * 
  * <br> JunwuMa SEP 23, 2008  Added doEvents(Robot, Vector) running RobotClipboardPasteEvent with proper delay time
  *                            for ctrl+v(paste) job done. 
- * <br> Carl Nagle  MAR 25, 2009  Added MouseDrag support
- * <br> Carl Nagle  APR 03, 2009  Enhance MouseDrag support to work for more apps.
+ * <br> CarlNagle  MAR 25, 2009  Added MouseDrag support
+ * <br> CarlNagle  APR 03, 2009  Enhance MouseDrag support to work for more apps.
  * <br> LeiWang JUL 04, 2011  Add methods to maximize, minimize, restore, close window by key-mnemonic.
- * <br> Lei Wang  OCT 30, 2012  Convert for Android's system.
- * <br> Lei Wang  NOV 06, 2012  Add methods to handle the Android's Clipboard.
+ * <br> LeiWang  OCT 30, 2012  Convert for Android's system.
+ * <br> LeiWang  NOV 06, 2012  Add methods to handle the Android's Clipboard.
  */
 public class Robot {
 	public String TAG = "Robot";

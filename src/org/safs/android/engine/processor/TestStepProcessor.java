@@ -1,7 +1,20 @@
-/** 
- ** Copyright (C) SAS Institute, All rights reserved.
- ** General Public License: http://www.opensource.org/licenses/gpl-license.php
- **/
+/**
+ * Copyright (C) SAS Institute, All rights reserved.
+ * General Public License: https://www.gnu.org/licenses/gpl-3.0.en.html
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
 package org.safs.android.engine.processor;
 
 import java.util.ArrayList;
@@ -63,9 +76,9 @@ import com.jayway.android.robotium.remotecontrol.client.processor.ProcessorExcep
  * </ul>
  * <p>
  * @author Carl Nagle, SAS Institute, Inc.
- * 26 APR, 2012 	(Lei Wang)	Add some methods to treat the keyword's parameters; 
+ * 26 APR, 2012 	(LeiWang)	Add some methods to treat the keyword's parameters; 
  *                              get embedded solo, instrumentation object; log general success and failure.
- * 19 APR, 2013 	(Lei Wang)	Get testObject from cache by windowName and componentName before looking by search-algorithm.<br>
+ * 19 APR, 2013 	(LeiWang)	Get testObject from cache by windowName and componentName before looking by search-algorithm.<br>
  */
 public abstract class TestStepProcessor extends SAFSProcessor {
 

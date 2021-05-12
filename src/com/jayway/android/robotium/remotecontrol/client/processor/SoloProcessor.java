@@ -1,7 +1,20 @@
-/** 
- ** Copyright (C) SAS Institute, All rights reserved.
- ** General Public License: http://www.opensource.org/licenses/gpl-license.php
- **/
+/**
+ * Copyright (C) SAS Institute, All rights reserved.
+ * General Public License: https://www.gnu.org/licenses/gpl-3.0.en.html
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
 package com.jayway.android.robotium.remotecontrol.client.processor;
 
 import java.io.BufferedInputStream;
@@ -86,15 +99,15 @@ import com.robotium.solo.WebElement;
  * 
  * @author Lei Wang, SAS Institute, Inc
  * @since  Feb 16, 2012<br>
- * 		   May 17, 2013		(Lei Wang)	Update to support Robotium 4.1<br>
- * 		   May 23, 2013		(Lei Wang)	Modify method takeScreenshot()<br>
- * 		   Jun 21, 2013		(Lei Wang)	Update to support Robotium 4.1+<br>
- * 		   Jun 25, 2013		(Carl Nagle)	Update to support Robotium 4.2<br>
- * 		   Jul 18, 2013		(Lei Wang)	Modify method getViewByName(): try to get view under package 'android'.<br>
- * 		   SEP 04, 2013		(Carl Nagle)	Update to support getViewId(int, index)<br>
- * 		   MAR 13, 2014		(Carl Nagle)	Update to support Robotium 5.x<br>
- * 		   JUL 21, 2014		(Lei Wang)	Update to support Robotium 5.2.1<br>
- * 		   MAR 05, 2015		(Lei Wang)	Update to support Robotium 5.3.1<br>
+ * 		   May 17, 2013		(LeiWang)	Update to support Robotium 4.1<br>
+ * 		   May 23, 2013		(LeiWang)	Modify method takeScreenshot()<br>
+ * 		   Jun 21, 2013		(LeiWang)	Update to support Robotium 4.1+<br>
+ * 		   Jun 25, 2013		(CarlNagle)	Update to support Robotium 4.2<br>
+ * 		   Jul 18, 2013		(LeiWang)	Modify method getViewByName(): try to get view under package 'android'.<br>
+ * 		   SEP 04, 2013		(CarlNagle)	Update to support getViewId(int, index)<br>
+ * 		   MAR 13, 2014		(CarlNagle)	Update to support Robotium 5.x<br>
+ * 		   JUL 21, 2014		(LeiWang)	Update to support Robotium 5.2.1<br>
+ * 		   MAR 05, 2015		(LeiWang)	Update to support Robotium 5.3.1<br>
  */
 public class SoloProcessor extends AbstractProcessor implements CacheReferenceInterface{
 	public static String TAG = SoloProcessor.class.getSimpleName();
